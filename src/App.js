@@ -6,6 +6,10 @@ import { firebaseConnect } from 'react-redux-firebase';
 
 import Navbar from './components/navbar/Navbar.js';
 import HomeScreen from './components/home_screen/HomeScreen.js';
+import RegisterScreen from './components/register_screen/RegisterScreen.js';
+import LoginScreen from './components/login_screen/LoginScreen.js';
+import DatabaseTester from './test/DatabaseTester';
+import EditScreen from './components/edit_screen/EditScreen.js'
 
 class App extends Component {
   render() {
@@ -20,6 +24,10 @@ class App extends Component {
             <Navbar />
             <Switch>
               <Route exact path="/" component={HomeScreen} />
+              <Route path="/databaseTester" component={DatabaseTester} />
+              <Route path="/register" component={RegisterScreen} />
+              <Route path="/login" component={LoginScreen} />
+              <Route path="/wireframe/:id" component={EditScreen}/>
             </Switch>
           </div>
         </BrowserRouter>

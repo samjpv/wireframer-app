@@ -1,0 +1,81 @@
+{
+	"wireFrames": [
+		{
+			"key" : 0,
+			"name" : "WireframeOne",
+			"owner" : "Richard",
+			"dimensions" : {"height" : 1, "width" : 2},
+			"items" : [
+				{
+					"key" : 0,
+					"id" : "controlOne",
+					"position" : {"x" : 1, "y" : 1},
+					"size" : {"height" : 1, "width" : 1},
+					"selected" : false,
+					"text" : "controlOne",
+					"fontsize" : 10,
+					"fontcolor" : "red",
+					"color" : "orange",
+					"border" : "solid"
+				},
+				{
+					"key" : 1,
+					"id" : "controlTwo",
+					"position" : {"x" : 2, "y" : 2},
+					"size" : {"height" : 2, "width" : 2},
+					"selected" : false,
+					"text" : "controlTwo",
+					"fontsize" : 20,
+					"fontcolor" : "yellow",
+					"color" : "green",
+					"border" : "solid"
+				},
+				{
+					"key" : 2,
+					"id" : "controlOne",
+					"position" : {"x" : 3, "y" : 3},
+					"size" : {"height" : 3, "width" : 3},
+					"selected" : false,
+					"text" : "controlOne",
+					"fontsize" : 30,
+					"fontcolor" : "blue",
+					"color" : "violet",
+					"border" : "solid"
+				}
+			]
+		},
+		{
+			"key" : 1,
+			"name" : "WireframeTwo",
+			"owner" : "Paul",
+			"dimensions" : {"height" : 5, "width" : 5},
+			"items" : [
+				{
+					"key" : 0,
+					"id" : "banner",
+					"position" : {"x" : 0, "y" : 2},
+					"size" : {"height" : 2, "width" : 10},
+					"selected" : false,
+					"text" : "Welcome",
+					"fontsize" : 30,
+					"fontcolor" : "black",
+					"color" : "red",
+					"border" : "solid"
+				},
+				{
+					"key" : 1,
+					"id" : "body",
+					"position" : {"x" : 0, "y" : 10},
+					"size" : {"height" : 8, "width" : 10},
+					"selected" : false,
+					"text" : "Joe? Who's Joe?--Joe mama",
+					"fontsize" : 15,
+					"fontcolor" : "black",
+					"color" : "white",
+					"border" : "solid"
+				}
+			]
+		}
+
+	]
+}

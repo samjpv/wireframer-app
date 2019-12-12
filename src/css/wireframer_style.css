@@ -1,0 +1,155 @@
+:root {
+    /* 
+        FIRST WE'LL DEFINE OUR SWATCHES, i.e. THE COMPLEMENTARY
+        COLORS THAT WE'LL USE TOGETHER IN MULTIPLE PLACES THAT
+        TOGETHER WILL MAKE UP A GIVEN THEME
+    */
+    --swatch-foundation:    rgb(151, 248, 240); /* USED FOR BODY BACKGROUND */
+    --swatch-primary:       rgb(151, 248, 240); /* DOMINANT COLOR, USED FOR MOST BACKGROUNDS */
+    --swatch-complement:    #E1E4CB; /* USED IN FORGROUND OF PRIMARY FOR TEXT AND BORDERS */
+    --swatch_contrast:      #111111; /* USED IN MOUSE-OVER SELECTION OF LARGE ELEMENTS */
+    --swatch-accent:        #669966; /* USED IN MOUSE-OVER SELECTION OF TEXT AND BORDERS */    
+    --my-font-family:          "Robaaaoto";
+    --bounceEasing: cubic-bezier(0.51, 0.92, 0.24, 1.15);
+  }
+  
+  body {
+    background-color: var(--swatch-foundation);
+    font-family: 'Lexend Exa';
+    background-image: url("background.jpg");
+  }
+  
+  div.banner {
+    background-image: linear-gradient(to bottom,         
+    #cf8563, #ff008c);
+    color: white;
+    font-size: 48pt;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 13%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20%;
+    font-family: "Brush Script MT";
+  }
+  
+.nav-wrapper {
+    background: linear-gradient(135deg, #369F4C 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px),
+    linear-gradient(225deg, #369F4C 21px, #d9ecff 22px, #d9ecff 24px, transparent 24px, transparent 67px, #d9ecff 67px, #d9ecff 69px, transparent 69px)0 64px;
+    background-color:#369F4C;
+    background-size: 64px 128px;
+}
+
+.initialscontainer {
+    font-size: 20px;
+    color:black;
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+    font-weight: bold;
+}
+
+.initialscontainer:hover{
+    box-shadow: 1px 2px;
+}
+
+.home_new_list_button {
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+    font-size: 32pt;
+}
+.home_new_list_button:hover {
+    color: #ff008c;
+    box-shadow: 1px 2px;
+}
+
+.brand-logo {
+    font-size: 40px;
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+    font-family: "Brush Script MT";
+}
+
+.brand-logo:visited {
+    color: black;
+}
+
+.brand-logo:hover {
+    color: #ff008c;
+}
+
+.right {
+    font-size: 30px;
+    margin-left: 80%;
+
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+}
+
+.right:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.col.s4.white {
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+}
+
+.input-field {
+    font-size: 20px;
+    margin-top:5%;
+}
+
+.grey-text {
+    font-size: 30px;
+}
+
+#registerContainer {
+    background-color: #cc8800;
+    background-image: url(http://www.transparenttextures.com/patterns/wood-pattern.png);
+}
+
+#signupButton {
+    background-color: #1e8d1a;
+    color: black;
+}
+
+.card-title, .card-title:visited, .card-title:hover, .card-title:active {
+    text-decoration: none;
+    color: black;
+}
+
+.card-content, .card-content:visited, .card-content:hover, .card-content:active {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logout {
+    color: red;
+}
+
+.card-title {
+    background-color: #369F4C;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 20px;
+    box-shadow: 3px 3px #000000;
+}
+
+.card-content {
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+
+.wireframe.container {
+    background-color: white;
+}

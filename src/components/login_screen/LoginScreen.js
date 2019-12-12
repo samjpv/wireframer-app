@@ -46,7 +46,7 @@ class LoginScreen extends Component {
     return (
       <div className="container">
         <div className="row">
-          <form onSubmit={this.handleSubmit} className="col s4 white">
+          <form onSubmit={this.handleSubmit} className="col s4 white" id="loginfields">
             <h5 className="grey-text text-darken-3">Login</h5>
             <div className="input-field">
               <label htmlFor="email">Email</label>
@@ -62,9 +62,8 @@ class LoginScreen extends Component {
             </div>
           </form>
 
-          <div className="col s8 banner">
-            @todo<br />
-            List Maker
+          <div id="loginbanner" className="col s8 banner">
+            Wireframer Tool
           </div>
         </div>
       </div>

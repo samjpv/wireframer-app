@@ -39,7 +39,7 @@ class RegisterScreen extends Component {
     }
 
     return (
-      <div className="container">
+      <div className="container" id="registerContainer">
         <form onSubmit={this.handleSubmit} className="white">
           <h5 className="grey-text text-darken-3">Register</h5>
           <div className="input-field">
@@ -59,7 +59,7 @@ class RegisterScreen extends Component {
             <input type="text" name="lastName" id="lastName" onChange={this.handleChange} />
           </div>
           <div className="input-field">
-            <button type="submit" className="btn pink lighten-1 z-depth-0">Sign Up</button>
+            <button type="submit" className="btn pink lighten-1 z-depth-0" id="signupButton">Sign Up</button>
             {authError ? <div className="red-text center"><p>{authError}</p></div> : null}
           </div>
         </form>
