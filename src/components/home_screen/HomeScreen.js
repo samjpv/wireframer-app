@@ -43,8 +43,9 @@ class HomeScreen extends Component {
 
         // add new wireframe
         firestore.collection("wireFramers").add({
-            name : "WIREFRAME",
+            name : "unnamed",
             owner : "UNKNOWN",
+            user : this.props.auth.uid,
             dimensions : {"height" : 500, "width" : 500},
             items : [],
             timeAccessed : Date.now(),  

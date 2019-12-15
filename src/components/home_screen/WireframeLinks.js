@@ -9,6 +9,35 @@ class WireframeLinks extends React.Component {
     render() {
         const wireframes = this.props.wireframes
         const firestore = getFirestore()
+        const auth = this.props.auth
+
+        if(wireframes !== undefined) {
+            for(var i=0; i<wireframes.length; i++){
+                if(wireframes[i].timeAccessed == null) {
+                    firestore.collection("wireFramers").doc(wireframes[i].id).update({
+                        timeAccessed : Date.now()
+                    })
+                }
+            }
+        }
+
+        // sorting wireframes by timestamp
+        if(wireframes !== undefined){
+            wireframes.sort((a,b) => (a.timeAccessed < b.timeAccessed) ? 1 :
+                                    (a.timeAccessed > b.timeAccessed) ? -1 :
+                                    0)
+        }
+
+        // filtering 
+        if(wireframes !== undefined){
+            for(var i=0; i<wireframes.length; i++){
+                if(wireframes[i].user != auth.uid && wireframes[i].user != null)
+                    wireframes.splice(i, 1)
+            }
+            console.log("WIREFRAMES")
+            console.log(wireframes)
+            console.log(auth.uid)
+        }
 
         return (
             <div className="wireframes section">

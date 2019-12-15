@@ -1,5 +1,5 @@
 const initState = {
-    todoLists: []
+    wireFramers: []
 };
 
 const wireframerReducer = (state = initState, action) => {

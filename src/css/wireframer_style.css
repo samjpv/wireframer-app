@@ -17,6 +17,8 @@
     background-color: var(--swatch-foundation);
     font-family: 'Lexend Exa';
     background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   div.banner {
@@ -28,10 +30,10 @@
     border-width: 2px;
     border-style: solid;
     border-radius: 10px;
-    padding-left: 13%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    padding-right: 20%;
+    padding-left: 200px;
+    padding-top: 70px;
+    padding-bottom: 70px;;
+    padding-right: 240px;
     font-family: "Brush Script MT";
   }
   
@@ -145,11 +147,26 @@ a {
     box-shadow: 3px 3px #000000;
 }
 
+
+
 .card-content {
     padding-bottom: 10%;
     margin-bottom: 10%;
 }
 
-.wireframe.container {
-    background-color: white;
+.wireframe.header {
+    font-family: "Lucida Sans Unicode";
+    font-size: 30pt;
+    background-image: linear-gradient(to bottom,         
+    #F9F1E8, #333333);
+    text-align: center;
+    padding-left: 33%;
+    padding-right: 33%;
 }
+
+.wireframe.workspace {
+    background-color: #EC687F;
+    padding-bottom: 75%;
+    border-radius: 2% 
+}
+
