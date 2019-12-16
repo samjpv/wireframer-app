@@ -1,83 +1,120 @@
 {
 	"wireFrames": [
 		{
-			"key" : 0,
-			"name" : "WireframeOne",
-			"owner" : "Richard",
-			"user" : null,
-			"dimensions" : {"height" : 800, "width" : 800},
-			"items" : [
+			"key": 0,
+			"name": "Tester1",
+			"owner": "Richard",
+			"user": "a7bWTFHGyAOlblfskyxE3mwAcFZ2",
+			"dimensions": {
+				"height": 800,
+				"width": 800
+			},
+			"controls": [
 				{
-					"key" : 0,
-					"id" : "controlOne",
-					"position" : {"x" : 50, "y" : 50},
-					"size" : {"height" : 50, "width" : 50},
-					"selected" : false,
-					"text" : "controlOne",
-					"fontsize" : 10,
-					"fontcolor" : "red",
-					"color" : "orange",
-					"border" : "solid"
+					"key": 0,
+					"type": "container",
+					"backgroundColor": "red",
+					"width": 200,
+					"height": 100,
+					"x": 0,
+					"y": 0,
+					"borderColor": "orange",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control0",
+					"timeAccessed": 0
 				},
 				{
-					"key" : 1,
-					"id" : "controlTwo",
-					"position" : {"x" : 100, "y" : 100},
-					"size" : {"height" : 100, "width" : 100},
-					"selected" : false,
-					"text" : "controlTwo",
-					"fontsize" : 20,
-					"fontcolor" : "yellow",
-					"color" : "green",
-					"border" : "solid"
+					"key": 0,
+					"type": "container",
+					"backgroundColor": "red",
+					"width": 200,
+					"height": 100,
+					"x": 0,
+					"y": 0,
+					"borderColor": "black",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control0",
+					"timeAccessed": 0
 				},
 				{
-					"key" : 2,
-					"id" : "controlThree",
-					"position" : {"x" : 300, "y" : 300},
-					"size" : {"height" : 200, "width" : 200},
-					"selected" : false,
-					"text" : "controlThree",
-					"fontsize" : 30,
-					"fontcolor" : "blue",
-					"color" : "violet",
-					"border" : "solid"
+					"key": 1,
+					"backgroundColor": "blue",
+					"type": "button",
+					"width": 100,
+					"height": 100,
+					"x": 200,
+					"y": 200,
+					"borderColor": "black",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control1",
+					"timeAccessed": 0
 				}
+			
 			]
 		},
 		{
-			"key" : 1,
-			"name" : "WireframeTwo",
-			"owner" : "Paul",
-			"user" : null,
-			"dimensions" : {"height" : 600, "width" : 600},
-			"items" : [
+			"key": 0,
+			"name": "Tester2",
+			"owner": "Richard",
+			"user": "y3Hc3zaNCJXcy8qw7RVw5Hlso8z1",
+			"dimensions": {
+				"height": 800,
+				"width": 800
+			},
+			"controls": [
 				{
-					"key" : 0,
-					"id" : "banner",
-					"position" : {"x" : 100, "y" : 300},
-					"size" : {"height" : 150, "width" : 300},
-					"selected" : false,
-					"text" : "Welcome",
-					"fontsize" : 30,
-					"fontcolor" : "black",
-					"color" : "red",
-					"border" : "solid"
+					"key": 0,
+					"type": "container",
+					"backgroundColor": "red",
+					"width": 200,
+					"height": 100,
+					"x": 0,
+					"y": 0,
+					"borderColor": "orange",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control0",
+					"timeAccessed": 0
 				},
 				{
-					"key" : 1,
-					"id" : "body",
-					"position" : {"x" : 400, "y" : 600},
-					"size" : {"height" : 100, "width" : 400},
-					"selected" : false,
-					"text" : "Joe? Who's Joe?--Joe mama",
-					"fontsize" : 15,
-					"fontcolor" : "black",
-					"color" : "white",
-					"border" : "solid"
+					"key": 0,
+					"type": "container",
+					"backgroundColor": "red",
+					"width": 200,
+					"height": 100,
+					"x": 0,
+					"y": 0,
+					"borderColor": "black",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control0",
+					"timeAccessed": 0
+				},
+				{
+					"key": 1,
+					"backgroundColor": "blue",
+					"type": "button",
+					"width": 100,
+					"height": 100,
+					"x": 200,
+					"y": 200,
+					"borderColor": "black",
+					"borderRadius": "5px",
+					"borderStyle": "solid",
+					"fontsize": 20,
+					"text": "control1",
+					"timeAccessed": 0
 				}
+			
 			]
 		}
-
 	]
 }

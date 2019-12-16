@@ -10,8 +10,8 @@ class DatabaseTester extends React.Component {
     // TO LOG IN
     handleClear = () => {
         const fireStore = getFirestore();
-        fireStore.collection('wireFramers').get().then(function(querySnapshot){
-            querySnapshot.forEach(function(doc) {
+        fireStore.collection('wireFramers').get().then(function (querySnapshot) {
+            querySnapshot.forEach(function (doc) {
                 console.log("deleting " + doc.id);
                 fireStore.collection('wireFramers').doc(doc.id).delete();
             })
@@ -22,15 +22,14 @@ class DatabaseTester extends React.Component {
         const fireStore = getFirestore();
         wireframeJson.wireFrames.forEach(wireframeJson => {
             fireStore.collection('wireFramers').add({
-                    name: wireframeJson.name,
-                    owner: wireframeJson.owner,
-                    dimensions: wireframeJson.dimensions,
-                    items: wireframeJson.items,
-                }).then(() => {
-                    console.log("DATABASE RESET");
-                }).catch((err) => {
-                    console.log(err);
-                });
+                name: wireframeJson.name,
+                controls: wireframeJson.controls,
+                user: wireframeJson.user
+            }).then(() => {
+                console.log("DATABASE RESET");
+            }).catch((err) => {
+                console.log(err);
+            });
         });
     }
 
